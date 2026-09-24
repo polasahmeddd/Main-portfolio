@@ -1,14 +1,75 @@
-Polas Ahmed — Projects page
+PROJECTS PAGE — GITHUB READY
+================================
 
-Upload projects.html and the entire images/ folder to the root of your GitHub Pages repository. Keep the file names and folder structure together.
+This package contains the updated Projects page for the Polas Ahmed portfolio.
 
-The navigation expects index.html, about.html, skills.html, projects.html and contact.html in the same directory. Update these links if your site uses different filenames.
+FILES
+-----
+projects.html
+images/
+README.txt
 
-The page has eight separate project cards. Better Appliance DMV and Better Appliance MD are two distinct case studies. IV Better appears between them. The full order is Better Appliance DMV, IV Better, Better Appliance MD, Legacy Rides, Deluxeside, Streetwearness, HighClassRep, and Aqua Luxe.
+WHAT WAS FIXED
+--------------
+Each project card on projects.html now opens its individual SEO case-study page
+instead of opening the performance image.
 
-Each full project card has ONE link. In projects.html, find the anchor with class="project-card-link" inside the relevant <article>. Replace its image href with the URL of your future case study page, for example href="case-studies/better-appliance-dmv.html". Change “Open project image” to “View case study” and update that link's aria-label at the same time.
+The eight links are:
 
-For each full case study, add your role, the starting problem, what you implemented, reporting dates, and results you can verify. Do not add percentage growth unless the baseline and period are known.
+01 Better Appliance DMV  -> better-appliance-dmv.html
+02 IV Better             -> iv-better.html
+03 Better Appliance MD   -> better-appliance-md.html
+04 Legacy Rides          -> legacy-rides.html
+05 Deluxeside            -> deluxeside.html
+06 Streetwearness        -> streetwearness.html
+07 HighClassRep          -> highclassrep.html
+08 Aqua Luxe             -> aqualuxe.html
 
+IMPORTANT GITHUB SETUP
+----------------------
+Upload projects.html to the root of your GitHub repository, replacing your
+current projects.html.
 
-Updated: The projects page header was changed to match the Polas Ahmed homepage header style: text logo, centered navigation, Resume button, Hire Me button, active Projects underline, and responsive mobile menu.
+Upload the included images folder to the same root level, so the structure is:
+
+portfolio-site/
+├── projects.html
+├── images/
+│   ├── better-appliance.png
+│   ├── iv-better.webp
+│   ├── better-appliance-second.png
+│   ├── legacy-rides.webp
+│   ├── deluxeside.png
+│   ├── streetwearness.png
+│   ├── highclassrep.png
+│   └── aqua-luxe.png
+├── better-appliance-dmv.html
+├── iv-better.html
+├── better-appliance-md.html
+├── legacy-rides.html
+├── deluxeside.html
+├── streetwearness.html
+├── highclassrep.html
+└── aqualuxe.html
+
+Your individual case-study HTML files should remain in the repository root
+beside projects.html, exactly as shown above.
+
+The images included here are copies of the project-performance images already
+available in the supplied case-study packages, renamed to match projects.html.
+
+AFTER UPLOADING
+---------------
+Open your GitHub Pages site and go to:
+
+projects.html
+
+Click anywhere on a project card. The entire card is clickable and should open
+that project's individual case-study HTML page.
+
+If GitHub Pages shows an old version, wait briefly and hard-refresh the page.
+
+NOTE
+----
+This package does not replace your individual case-study pages. Those pages
+should already be uploaded separately to the repository.
