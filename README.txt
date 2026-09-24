@@ -1,0 +1,1 @@
+Mobile-optimized homepage based on the provided homepage source. Includes responsive navigation, mobile menu, responsive hero, cards, CTA, about section, and footer.
